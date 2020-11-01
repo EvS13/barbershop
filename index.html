@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
     <!-- Шапка -->
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./"><img src="./images/Logo.png" alt=""></a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#price">Услуги и цены</a></li>
-                <li><a href="#team">Мастера</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+    <header class="header">
+        <nav class="nav-header">
+            <a href="./"><img src="./images/Logo.png" alt="логотип"></a>
+            <ul class="header-item list">
+                <li class="item"><a href="#about">О нас</a></li>
+                <li class="item"><a href="#price">Услуги и цены</a></li>
+                <li class="item"><a href="#team">Мастера</a></li>
+                <li class="item"><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
         <a href="tel:+380441111111">+38 044 111 11 11</a>
@@ -34,7 +38,7 @@
             <p>Мы эксперты в модных мужских стрижках.
                 Работаем быстро, осторожно и со вкусом.</p>
         </div>
-        <ul>
+        <ul class="list">
             <li><a href="https://www.instagram.com/" target="_blanc" rel="noopener noreferer">Instagram</a></li>
             <li><a href="https://www.youtube.com/" target="_blanc" rel="noopener noreferer">Youtube</a></li>
         </ul>
@@ -42,10 +46,9 @@
 
     <!-- О нас -->
     <section id="about">
-        <ul>
-            <li> <img src="./images/img1.jpg" width="270" height="445" alt="бритьё бороды"></li>
-            <li> <img src="./images/img2.jpg" width="270" height="445" alt="стрижка волос"></li>
-        </ul>
+        <ul class="list">
+            <li><img src="./images/img1.jpg" width="270" height="445" alt="бритьё бороды"></li>
+            <li><img src="./images/img2.jpg" width="270" height="445" alt="стрижка волос"></li>
         <div>
             <p>О нас</p>
             <h2>Лучший Барбершоп
@@ -63,12 +66,12 @@
     <section id="price">
         <p>Проведи время в компании лучших мастеров</p>
         <h2>Услуги и цены</h2>
-        <ul>
-            <li><span>Мужская стрижка</span><span>от 300 грн.</span></li>
+        <ul class="list">
             <li><span>Стрижка бороды</span><span>от 200 грн.</span></li>
             <li><span>Стрижка усов</span><span>от 200 грн.</span></li>
             <li><span>Бритье опасной бритвой</span><span>от 200 грн.</span></li>
             <li><span>Cтрижка у стажера</span><span>от 50 грн.</span></li>
+            <li><span>Мужская стрижка</span><span>от 300 грн.</span></li>
             <li><span>Стрижка под насадку</span><span>от 200 грн.</span></li>
             <li><span>Детская стрижка (до 12 лет)</span><span>от 300 грн.</span></li>
             <li><span>Камуфлирование седины</span><span>от 200 грн.</span></li>
@@ -79,7 +82,7 @@
     <!-- Преимущества -->
     <section>
         <div>
-            <ul>
+            <ul class="list">
                 <li><span>600<sup>+</sup></span><span>Довольных клиентов в день</span></li>
                 <li><span>50<sup>+</sup></span><span>Наград за отличный сервис </span></li>
                 <li><span>20<sup>+</sup></span><span>Лучших мастеров Киева </span></li>
@@ -98,12 +101,12 @@
         <p>для настоящих ценителей атмосферы</p>
         <h2>Наши мастера</h2>
         <div>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/img3.jpg" width="370" height="346" alt="мужчина стрижёт волосы">
                     <h3 lang="en">John Smith</h3>
                     <p lang="en">Extreme Barber</p>
-                    <ul>
+                    <ul class="list">
                         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferer"
                                 aria-label="Instagram">Instagram</a></li>
                         <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferer"
@@ -152,7 +155,7 @@
 
     <section>
         <p>На латинском языке “барба” означает “борода”</p>
-        <ul>
+        <ul class="list">
             <li><img src="./images/img6.jpg" width="270" height="360" alt="мужчина стрижёт"></li>
             <li><img src="./images/img7.jpg" width="270" height="360" alt="мужчина бреет"></li>
             <li><img src="./images/img8.jpg" width="270" height="360" alt="полотенце на лице после бритья"></li>
@@ -165,7 +168,7 @@
     <div>
         <section id="contacts">
             <h2>Онлайн-запись</h2>
-            <ul>
+            <ul class="list">
                 <li><span>имя<sup>*</sup></span></li>
                 <li><span>телефон<sup>*</sup></span></li>
                 <li><span>сообщение</span></li>
@@ -175,15 +178,16 @@
         <section>
             <h2>Контакты</h2>
             <address>
-                <ul>
-                    <li><a href="https://goo.gl/maps/zzdxSf35kt64CHBw6" target="_blank" rel="noopener noreferer">ул. Васильковская, 7А
+                <ul class="list">
+                    <li><a href="https://goo.gl/maps/zzdxSf35kt64CHBw6" target="_blank" rel="noopener noreferer">ул.
+                            Васильковская, 7А
                             Киев, 08132</a></li>
                     <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
                     <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
                 </ul>
             </address>
             <section>
-                <ul>
+                <ul class="list">
                     <li>
                         <p>время работы</p>
                     </li>
@@ -199,7 +203,7 @@
 
     <section>
         <span>&copy;Copyright 2020</span>
-        <ul>
+        <ul class="list">
             <li><a href="https://www.instagram.com/" target="_blanc" rel="noopener noreferer">Instagram</a></li>
             <li><a href="https://www.youtube.com/" target="_blanc" rel="noopener noreferer">Youtube</a></li>
         </ul>
